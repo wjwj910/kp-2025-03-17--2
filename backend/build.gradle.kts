@@ -42,7 +42,7 @@ dependencies {
 
     // DB
     runtimeOnly("com.h2database:h2")
-    runtimeOnly("org.postgresql:postgresql")
+    runtimeOnly("com.mysql:mysql-connector-j")
 
     // QueryDSL
     implementation("com.querydsl:querydsl-jpa:5.1.0:jakarta")

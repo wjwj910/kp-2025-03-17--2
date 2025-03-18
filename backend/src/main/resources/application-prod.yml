@@ -1,9 +1,9 @@
 spring:
   datasource:
-    url: jdbc:postgresql://jhs512-db.internal:5432/glog_prod
-    username: postgres
+    url: jdbc:mysql://mysql_1:3306/glog_prod
+    username: lldjlocal
     password: ${custom.prod.db.password}
-    driver-class-name: org.postgresql.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
       auto-commit: false
   jpa:
